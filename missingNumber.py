@@ -1,4 +1,4 @@
-# Time - O(N) | Space - O(N)
+# Time - O(N) | Space - O(1)
 def missingNumber(nums):
     total, n = 0, len(nums)
     for num in nums:
@@ -6,7 +6,7 @@ def missingNumber(nums):
     return (n * (n + 1) // 2) - total
 
 
-# Time - O(N) | Space - O(N)
+# Time - O(N) | Space - O(1)
 def missingNumber(nums):
     n = len(nums)
     res = n

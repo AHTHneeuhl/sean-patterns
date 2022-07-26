@@ -1,4 +1,4 @@
-# Time - O(N) | Space O(N)
+# Time - O(N) | Space O(1)
 def singleNumber(nums):
     res = 0
     for num in nums:

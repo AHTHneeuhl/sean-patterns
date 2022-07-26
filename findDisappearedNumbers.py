@@ -1,4 +1,4 @@
-# Time - O(N) | Space - O(N)
+# Time - O(N) | Space - O(1)
 def findDisappearedNumbers(nums):
     for num in nums:
         t = abs(num) - 1
